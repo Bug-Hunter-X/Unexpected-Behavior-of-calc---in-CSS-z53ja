@@ -1,0 +1,7 @@
+The CSS property `calc()` is not working as expected.  I'm trying to calculate the width of an element based on its parent's width, but the calculation doesn't seem to be happening correctly. 
+```css
+#element {
+  width: calc(50% - 20px);
+}
+```
+The element's width is not 50% of its parent's width minus 20px.
